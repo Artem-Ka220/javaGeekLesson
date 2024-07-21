@@ -8,7 +8,7 @@ public class Program {
     public static void main(String[] args) {
         MyCoffee latte = new MyCoffee();
         latte.addComponent(new MyIngredient("вода"));
-        latte.addComponent(new MyIngredient("водаФйгф"));
+        latte.addComponent(new MyIngredient("водаAqua"));
         latte.addComponent(new MyIngredient("вода"));
 
         for (MyIngredient ingredient : latte) {
